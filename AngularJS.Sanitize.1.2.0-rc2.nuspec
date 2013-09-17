@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>AngularJS.Sanitize</id>
+        <version>1.2.0-rc2</version>
+        <title>AngularJS Sanitize</title>
+        <authors>John Papa</authors>
+        <owners>John Papa</owners>
+        <projectUrl>http://angularjs.org</projectUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/6e1b5ab3ef1593413f1bee4e5a6e6ae7?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>See the AngularJS.* packages for other Angular modules</description>
+        <summary>AngularJS. HTML enhanced for web apps!
+
+AngularJS.Sanitize contains the Angular Sanitize module</summary>
+        <language>en-US</language>
+        <tags>angular angularjs</tags>
+        <dependencies>
+            <dependency id="AngularJS.Core" version="1.2.0-rc2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="angularjs.sanitize\scripts\angular-sanitize.js" target="content\scripts\angular-sanitize.js" />
+        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js" target="content\scripts\angular-sanitize.min.js" />
+        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js.map" target="content\scripts\angular-sanitize.min.js.map" />
+    </files>
+</package>
