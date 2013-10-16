@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Locale</id>
-        <version>1.2.0-rc2</version>
-        <title>AngularJS Locale</title>
-        <authors>John Papa</authors>
+        <id>AngularJS.Core</id>
+        <version>1.2.0-rc3</version>
+        <title>AngularJS Core</title>
+        <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
         <iconUrl>https://secure.gravatar.com/avatar/6e1b5ab3ef1593413f1bee4e5a6e6ae7?s=140&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png</iconUrl>
@@ -12,17 +12,14 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Locale contains the locale Angular files. Angular supports i18n/l10n</summary>
+AngularJS.Core contains the core Angular files and the angular.mocks for unit testing.</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
-        <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.0-rc2" />
-        </dependencies>
     </metadata>
     <files>
-        <file src="content\scripts\angular-mocks.js" target="content\scripts\angular-mocks.js" />
-        <file src="content\scripts\angular.js" target="content\scripts\angular.js" />
-        <file src="content\scripts\angular.min.js" target="content\scripts\angular.min.js" />
-        <file src="content\scripts\angular.min.js.map" target="content\scripts\angular.min.js.map" />
+        <file src="..\ANGULA~1\angularjs.core\scripts\angular-mocks.js" target="content\scripts\angular-mocks.js" />
+        <file src="..\ANGULA~1\angularjs.core\scripts\angular.js" target="content\scripts\angular.js" />
+        <file src="..\ANGULA~1\angularjs.core\scripts\angular.min.js" target="content\scripts\angular.min.js" />
+        <file src="..\ANGULA~1\angularjs.core\scripts\angular.min.js.map" target="content\scripts\angular.min.js.map" />
     </files>
 </package>
