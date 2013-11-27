@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Cookies</id>
-        <version>1.2.0-rc3</version>
-        <title>AngularJS Cookies</title>
+        <id>AngularJS.Touch</id>
+        <version>1.2.3</version>
+        <title>AngularJS Touch</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,16 +12,16 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Cookies contains the Angular Cookies module</summary>
+AngularJS.Touch contains the Angular Touch module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.0-rc2" />
+            <dependency id="AngularJS.Core" version="1.2.3" />
         </dependencies>
     </metadata>
     <files>
-        <file src="..\ANGULA~1\angularjs.cookies\scripts\angular-cookies.js" target="content\scripts\angular-cookies.js" />
-        <file src="..\ANGULA~1\angularjs.cookies\scripts\angular-cookies.min.js" target="content\scripts\angular-cookies.min.js" />
-        <file src="..\ANGULA~1\angularjs.cookies\scripts\angular-cookies.min.js.map" target="content\scripts\angular-cookies.min.js.map" />
+        <file src="content\scripts\angular-touch.js" target="content\scripts\angular-touch.js" />
+        <file src="content\scripts\angular-touch.min.js" target="content\scripts\angular-touch.min.js" />
+        <file src="content\scripts\angular-touch.min.js.map" target="content\scripts\angular-touch.min.js.map" />
     </files>
 </package>
