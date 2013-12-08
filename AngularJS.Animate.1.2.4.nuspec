@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>AngularJS.Animate</id>
-        <version>1.2.3</version>
+        <version>1.2.4</version>
         <title>AngularJS Animate</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
@@ -16,12 +16,12 @@ AngularJS.Animatecontains the Angular Animate module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.3" />
+            <dependency id="AngularJS.Core" version="1.2.4" />
         </dependencies>
     </metadata>
     <files>
-        <file src="content\scripts\angular-animate.js" target="content\scripts\angular-animate.js" />
-        <file src="content\scripts\angular-animate.min.js" target="content\scripts\angular-animate.min.js" />
-        <file src="content\scripts\angular-animate.min.js.map" target="content\scripts\angular-animate.min.js.map" />
+        <file src="angularjs.animate\scripts\angular-animate.js" target="content\scripts\angular-animate.js" />
+        <file src="angularjs.animate\scripts\angular-animate.min.js" target="content\scripts\angular-animate.min.js" />
+        <file src="angularjs.animate\scripts\angular-animate.min.js.map" target="content\scripts\angular-animate.min.js.map" />
     </files>
 </package>

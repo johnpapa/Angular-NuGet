@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Resource</id>
-        <version>1.2.3</version>
-        <title>AngularJS Resource</title>
+        <id>AngularJS.Sanitize</id>
+        <version>1.2.4</version>
+        <title>AngularJS Sanitize</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,16 +12,16 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Resource contains the Angular Resource module</summary>
+AngularJS.Sanitize contains the Angular Sanitize module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.3" />
+            <dependency id="AngularJS.Core" version="1.2.4" />
         </dependencies>
     </metadata>
     <files>
-        <file src="content\scripts\angular-resource.js" target="content\scripts\angular-resource.js" />
-        <file src="content\scripts\angular-resource.min.js" target="content\scripts\angular-resource.min.js" />
-        <file src="content\scripts\angular-resource.min.js.map" target="content\scripts\angular-resource.min.js.map" />
+        <file src="angularjs.sanitize\scripts\angular-sanitize.js" target="content\scripts\angular-sanitize.js" />
+        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js" target="content\scripts\angular-sanitize.min.js" />
+        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js.map" target="content\scripts\angular-sanitize.min.js.map" />
     </files>
 </package>

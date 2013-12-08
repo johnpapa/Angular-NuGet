@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>AngularJS.Route</id>
-        <version>1.2.3</version>
+        <version>1.2.4</version>
         <title>AngularJS Route</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
@@ -16,12 +16,12 @@ AngularJS.Route contains the Angular Route module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.3" />
+            <dependency id="AngularJS.Core" version="1.2.4" />
         </dependencies>
     </metadata>
     <files>
-        <file src="content\scripts\angular-route.js" target="content\scripts\angular-route.js" />
-        <file src="content\scripts\angular-route.min.js" target="content\scripts\angular-route.min.js" />
-        <file src="content\scripts\angular-route.min.js.map" target="content\scripts\angular-route.min.js.map" />
+        <file src="angularjs.route\scripts\angular-route.js" target="content\scripts\angular-route.js" />
+        <file src="angularjs.route\scripts\angular-route.min.js" target="content\scripts\angular-route.min.js" />
+        <file src="angularjs.route\scripts\angular-route.min.js.map" target="content\scripts\angular-route.min.js.map" />
     </files>
 </package>
