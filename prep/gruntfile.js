@@ -10,55 +10,55 @@ module.exports = function (grunt) {
             main: {
             files: [
             {
-                src: ['../prep/angular-1.2.6/angular-animate*.*'],
+                src: ['../prep/angular-1.2.7/angular-animate*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.animate/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-cookies*.*'],
+                src: ['../prep/angular-1.2.7/angular-cookies*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.cookies/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular.*', '../prep/angular-1.2.6/angular-mocks.js'],
+                src: ['../prep/angular-1.2.7/angular.*', '../prep/angular-1.2.7/angular-mocks.js'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.core/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-loader*.*'],
+                src: ['../prep/angular-1.2.7/angular-loader*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.loader/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/i18n/*.*'],
+                src: ['../prep/angular-1.2.7/i18n/*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.locale/scripts/i18n/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-resource*.*'],
+                src: ['../prep/angular-1.2.7/angular-resource*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.resource/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-route*.*'],
+                src: ['../prep/angular-1.2.7/angular-route*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.route/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-sanitize*.*'],
+                src: ['../prep/angular-1.2.7/angular-sanitize*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.sanitize/scripts/'
               },
             {
-                src: ['../prep/angular-1.2.6/angular-touch*.*'],
+                src: ['../prep/angular-1.2.7/angular-touch*.*'],
                 flatten: true,
                 expand: true,
                 dest: '../angularjs.touch/scripts/'
