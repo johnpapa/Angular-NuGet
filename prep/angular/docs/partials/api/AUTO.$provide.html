@@ -1,4 +1,4 @@
-<a href="http://github.com/angular/angular.js/tree/v1.2.8/src/auto/injector.js#L291" class="view-source btn btn-action"><i class="icon-zoom-in"> </i> View source</a><a href="http://github.com/angular/angular.js/edit/master/src/auto/injector.js" class="improve-docs btn btn-primary"><i class="icon-edit"> </i> Improve this doc</a><h1><code ng:non-bindable="">$provide</code>
+<a href="http://github.com/angular/angular.js/tree/v1.2.9/src/auto/injector.js#L291" class="view-source btn btn-action"><i class="icon-zoom-in"> </i> View source</a><a href="http://github.com/angular/angular.js/edit/master/src/auto/injector.js" class="improve-docs btn btn-primary"><i class="icon-edit"> </i> Improve this doc</a><h1><code ng:non-bindable="">$provide</code>
 <div><span class="hint">service in module <code ng:non-bindable="">AUTO</code>
 </span>
 </div>
@@ -206,26 +206,31 @@ instance.
 This is short for registering a service where its provider&#39;s <code>$get</code> property is the service
 constructor function that will be used to instantiate the service instance.</p>
 <p>You should use <a href="api/AUTO.$provide#methods_service"><code>$provide.service(class)</code></a> if you define your service
-as a type/class. This is common when using <a href="http://coffeescript.org">CoffeeScript</a>.</p>
+as a type/class.</p>
 </div><h5 id="methods_service_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>name</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="auto-provide-service-page"><p>The name of the instance.</p>
 </div></td></tr><tr><td>constructor</td><td><a href="" class="label type-hint type-hint-function">Function</a></td><td><div class="auto-provide-service-page"><p>A class (constructor function) that will be instantiated.</p>
 </div></td></tr></tbody></table><h5 id="methods_service_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">Object</a></td><td><div class="auto-provide-service-page"><p>registered provider instance</p>
 </div></td></tr></table><h4 id="methods_service_example">Example</h4>
 <div class="example"><div class="auto-provide-service-page"><p>Here is an example of registering a service using
-<a href="api/AUTO.$provide#methods_service"><code>$provide.service(class)</code></a> that is defined as a CoffeeScript class.
+<a href="api/AUTO.$provide#methods_service"><code>$provide.service(class)</code></a>.
 <pre class="prettyprint linenums">
-  class Ping
-    constructor: (@$http) -&gt;
-    send: () =&gt;
-      @$http.get('/ping')
-
-  $provide.service('ping', ['$http', Ping])
+  $provide.service('ping', ['$http', function($http) {
+    var Ping = function() {
+      this.$http = $http;
+    };
+  
+    Ping.prototype.send = function() {
+      return this.$http.get('/ping');
+    }; 
+  
+    return Ping;
+  }]);
 </pre>
 You would then inject and use this service like this:
 <pre class="prettyprint linenums">
-  someModule.controller 'Ctrl', ['ping', (ping) -&gt;
-    ping.send()
-  ]
+  someModule.controller('Ctrl', ['ping', function(ping) {
+    ping.send();
+  }]);
 </pre>
 </div></div>
 </div>

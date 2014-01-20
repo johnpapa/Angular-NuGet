@@ -159,8 +159,8 @@ You can do this by issuing <code>npm install</code> into your terminal.</p>
 <p>To run the test, do the following:</p>
 <ol>
 <li><p>In a <em>separate</em> terminal window or tab, go to the <code>angular-phonecat</code> directory and run
-<code>./scripts/test.sh</code> to start the Karma server (the config file necessary to start the server
-is located at <code>./config/karma.conf.js</code>).</p>
+<code>./scripts/test.sh</code> (if you are on Windows, run scripts\test.bat) to start the Karma server (the
+config file necessary to start the server is located at <code>./config/karma.conf.js</code>).</p>
 </li>
 <li><p>Karma will start a new instance of Chrome browser automatically. Just ignore it and let it run in
 the background. Karma will use this browser for test execution.</p>
@@ -172,7 +172,7 @@ the background. Karma will use this browser for test execution.</p>
       Chrome 22.0: Executed 1 of 1 SUCCESS (0.093 secs / 0.004 secs)</code></pre>
 <p>Yay! The test passed! Or not...</p>
 </li>
-<li><p>To rerun the tests, just change any of the source or test files. Karma will notice the change
+<li><p>To rerun the tests, just change any of the source or test .js files. Karma will notice the change
 and will rerun the tests for you. Now isn&#39;t that sweet?</p>
 </li>
 </ol>
@@ -185,7 +185,7 @@ and will rerun the tests for you. Now isn&#39;t that sweet?</p>
 <pre><code>    $scope.name = &quot;World&quot;</code></pre>
 <p>Then add a new binding to <code>index.html</code>:</p>
 <pre><code>    &lt;p&gt;Hello, {{name}}!&lt;/p&gt;</code></pre>
-<p>Refresh your browser and verifies that it says &quot;Hello, World!&quot;.</p>
+<p>Refresh your browser and verify that it says &quot;Hello, World!&quot;.</p>
 </li>
 <li><p>Create a repeater that constructs a simple table:</p>
 <pre><code>    &lt;table&gt;

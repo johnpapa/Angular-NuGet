@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Loader</id>
-        <version>1.2.8</version>
-        <title>AngularJS Loader</title>
+        <id>AngularJS.Route</id>
+        <version>1.2.9</version>
+        <title>AngularJS Route</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,16 +12,16 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Loader contains the Angular Loader module</summary>
+AngularJS.Route contains the Angular Route module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.8" />
+            <dependency id="AngularJS.Core" version="1.2.9" />
         </dependencies>
     </metadata>
     <files>
-        <file src="angularjs.loader\scripts\angular-loader.js" target="content\scripts\angular-loader.js" />
-        <file src="angularjs.loader\scripts\angular-loader.min.js" target="content\scripts\angular-loader.min.js" />
-        <file src="angularjs.loader\scripts\angular-loader.min.js.map" target="content\scripts\angular-loader.min.js.map" />
+        <file src="angularjs.route\scripts\angular-route.js" target="content\scripts\angular-route.js" />
+        <file src="angularjs.route\scripts\angular-route.min.js" target="content\scripts\angular-route.min.js" />
+        <file src="angularjs.route\scripts\angular-route.min.js.map" target="content\scripts\angular-route.min.js.map" />
     </files>
 </package>

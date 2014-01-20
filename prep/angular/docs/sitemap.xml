@@ -49,6 +49,9 @@
  <url><loc>http://docs.angularjs.org/api/ng.directive:form.FormController</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngForm</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:form</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngBind</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngBindTemplate</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngBindHtml</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:input.text</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:input.number</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:input.url</loc><changefreq>weekly</changefreq></url>
@@ -62,9 +65,6 @@
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngChange</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngList</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngValue</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngBind</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngBindTemplate</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngBindHtml</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngClass</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngClassOdd</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngClassEven</loc><changefreq>weekly</changefreq></url>
@@ -93,16 +93,17 @@
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngInit</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngNonBindable</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngPluralize</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngStyle</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngRepeat</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngSwitch</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.directive:ngTransclude</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngShow</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:ngHide</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngStyle</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngSwitch</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.directive:ngTransclude</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:script</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.directive:select</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$document</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$exceptionHandler</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.filter:limitTo</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:filter</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:currency</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:number</loc><changefreq>weekly</changefreq></url>
@@ -110,12 +111,11 @@
  <url><loc>http://docs.angularjs.org/api/ng.filter:json</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:lowercase</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:uppercase</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.filter:limitTo</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.filter:orderBy</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$filterProvider</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$filter</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.$http</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$httpBackend</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.$http</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$interpolateProvider</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$interpolate</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$interval</loc><changefreq>weekly</changefreq></url>
@@ -131,11 +131,11 @@
  <url><loc>http://docs.angularjs.org/api/ng.$rootScopeProvider</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$rootScope</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$rootScope.Scope</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/api/ng.$timeout</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$sceDelegate</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$sceDelegateProvider</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$sceProvider</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$sce</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/api/ng.$timeout</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ng.$window</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ngCookies</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/api/ngCookies.$cookies</loc><changefreq>weekly</changefreq></url>
@@ -202,10 +202,10 @@
  <url><loc>http://docs.angularjs.org/error/ngRepeat:dupes</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/ngRepeat:iexp</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/ngRepeat:iidexp</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/error/$parse:isecdom</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/ngTransclude:orphan</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/error/$parse:isecfn</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/error/$parse:isecdom</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/$parse:isecfld</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/error/$parse:isecfn</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/$parse:isecwindow</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/$parse:lexerr</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/error/$parse:syntax</loc><changefreq>weekly</changefreq></url>
@@ -231,8 +231,8 @@
  <url><loc>http://docs.angularjs.org/guide/controller</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/databinding</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.e2e-testing</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/guide/dev_guide.services.creating_services</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.services.$location</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/guide/dev_guide.services.creating_services</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.services.injecting_controllers</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.services.managing_dependencies</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.services</loc><changefreq>weekly</changefreq></url>
@@ -241,8 +241,8 @@
  <url><loc>http://docs.angularjs.org/guide/dev_guide.templates.css-styling</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/dev_guide.unit-testing</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/di</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/guide/expression</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/directive</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/guide/expression</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/filter</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/forms</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/i18n</loc><changefreq>weekly</changefreq></url>
@@ -250,11 +250,11 @@
  <url><loc>http://docs.angularjs.org/guide/index</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/introduction</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/migration</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/guide/templates</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/module</loc><changefreq>weekly</changefreq></url>
+ <url><loc>http://docs.angularjs.org/misc/contribute</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/providers</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/guide/scope</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/guide/templates</loc><changefreq>weekly</changefreq></url>
- <url><loc>http://docs.angularjs.org/misc/contribute</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/misc/downloading</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/misc/faq</loc><changefreq>weekly</changefreq></url>
  <url><loc>http://docs.angularjs.org/misc/started</loc><changefreq>weekly</changefreq></url>
