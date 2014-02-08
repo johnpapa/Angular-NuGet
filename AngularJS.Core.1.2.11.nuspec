@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Sanitize</id>
-        <version>1.2.9</version>
-        <title>AngularJS Sanitize</title>
+        <id>AngularJS.Core</id>
+        <version>1.2.11</version>
+        <title>AngularJS Core</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,16 +12,14 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Sanitize contains the Angular Sanitize module</summary>
+AngularJS.Core contains the core Angular files and the angular.mocks for unit testing.</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
-        <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.9" />
-        </dependencies>
     </metadata>
     <files>
-        <file src="angularjs.sanitize\scripts\angular-sanitize.js" target="content\scripts\angular-sanitize.js" />
-        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js" target="content\scripts\angular-sanitize.min.js" />
-        <file src="angularjs.sanitize\scripts\angular-sanitize.min.js.map" target="content\scripts\angular-sanitize.min.js.map" />
+        <file src="angularjs.core\scripts\angular-mocks.js" target="content\scripts\angular-mocks.js" />
+        <file src="angularjs.core\scripts\angular.js" target="content\scripts\angular.js" />
+        <file src="angularjs.core\scripts\angular.min.js" target="content\scripts\angular.min.js" />
+        <file src="angularjs.core\scripts\angular.min.js.map" target="content\scripts\angular.min.js.map" />
     </files>
 </package>
