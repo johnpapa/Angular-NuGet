@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Core</id>
-        <version>1.2.11</version>
-        <title>AngularJS Core</title>
+        <id>AngularJS.Resource</id>
+        <version>1.2.13</version>
+        <title>AngularJS Resource</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,14 +12,16 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Core contains the core Angular files and the angular.mocks for unit testing.</summary>
+AngularJS.Resource contains the Angular Resource module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
+        <dependencies>
+            <dependency id="AngularJS.Core" version="1.2.13" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="angularjs.core\scripts\angular-mocks.js" target="content\scripts\angular-mocks.js" />
-        <file src="angularjs.core\scripts\angular.js" target="content\scripts\angular.js" />
-        <file src="angularjs.core\scripts\angular.min.js" target="content\scripts\angular.min.js" />
-        <file src="angularjs.core\scripts\angular.min.js.map" target="content\scripts\angular.min.js.map" />
+        <file src="angularjs.resource\scripts\angular-resource.js" target="content\scripts\angular-resource.js" />
+        <file src="angularjs.resource\scripts\angular-resource.min.js" target="content\scripts\angular-resource.min.js" />
+        <file src="angularjs.resource\scripts\angular-resource.min.js.map" target="content\scripts\angular-resource.min.js.map" />
     </files>
 </package>

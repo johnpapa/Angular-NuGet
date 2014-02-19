@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>AngularJS.Animate</id>
-        <version>1.2.12</version>
+        <version>1.2.13</version>
         <title>AngularJS Animate</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
@@ -16,7 +16,7 @@ AngularJS.Animatecontains the Angular Animate module</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.12" />
+            <dependency id="AngularJS.Core" version="1.2.13" />
         </dependencies>
     </metadata>
     <files>
