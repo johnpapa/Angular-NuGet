@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>AngularJS.Locale</id>
-        <version>1.2.18</version>
+        <version>1.2.19</version>
         <title>AngularJS Locale</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
@@ -16,7 +16,7 @@ AngularJS.Locale contains the locale Angular files. Angular supports i18n/l10n</
         <language>en-US</language>
         <tags>angular angularjs</tags>
         <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.18" />
+            <dependency id="AngularJS.Core" version="1.2.19" />
         </dependencies>
     </metadata>
     <files>

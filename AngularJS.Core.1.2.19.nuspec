@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>AngularJS.Cookies</id>
-        <version>1.2.18</version>
-        <title>AngularJS Cookies</title>
+        <id>AngularJS.Core</id>
+        <version>1.2.19</version>
+        <title>AngularJS Core</title>
         <authors>John Papa,Scott Allen,Jeremy Likness</authors>
         <owners>John Papa</owners>
         <projectUrl>http://angularjs.org</projectUrl>
@@ -12,16 +12,14 @@
         <description>See the AngularJS.* packages for other Angular modules</description>
         <summary>AngularJS. HTML enhanced for web apps!
 
-AngularJS.Cookies contains the Angular Cookies module</summary>
+AngularJS.Core contains the core Angular files and the angular.mocks for unit testing.</summary>
         <language>en-US</language>
         <tags>angular angularjs</tags>
-        <dependencies>
-            <dependency id="AngularJS.Core" version="1.2.18" />
-        </dependencies>
     </metadata>
     <files>
-        <file src="angularjs.cookies\scripts\angular-cookies.js" target="content\scripts\angular-cookies.js" />
-        <file src="angularjs.cookies\scripts\angular-cookies.min.js" target="content\scripts\angular-cookies.min.js" />
-        <file src="angularjs.cookies\scripts\angular-cookies.min.js.map" target="content\scripts\angular-cookies.min.js.map" />
+        <file src="angularjs.core\scripts\angular-mocks.js" target="content\scripts\angular-mocks.js" />
+        <file src="angularjs.core\scripts\angular.js" target="content\scripts\angular.js" />
+        <file src="angularjs.core\scripts\angular.min.js" target="content\scripts\angular.min.js" />
+        <file src="angularjs.core\scripts\angular.min.js.map" target="content\scripts\angular.min.js.map" />
     </files>
 </package>
