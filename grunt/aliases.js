@@ -4,16 +4,18 @@ module.exports = {
         'fetchpages',
         'download',
         'template',
+        'pack-locale',
         'pack',
-        // 'pack:NonLocale',
-        // 'pack:Locale',
         'notify'
     ],
     'download': [
         'curl-dir'
     ],
+    'pack-locale': [
+        'nugetpack:Locale'
+    ],
     'pack': [
-        'nugetpack'
+        'nugetpack:most'
     ],
     'publish': [
         'nugetpush'
