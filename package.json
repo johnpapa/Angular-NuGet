@@ -1,18 +1,29 @@
 {
   "name": "angular-nuget",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "angular nuget packaging",
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
-    "grunt": "~0.4.2",
+    "grunt": "^0.4.5",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-curl": "~2.0.2",
     "grunt-template": "~0.2.3",
     "grunt-fetch-pages": "~1.0.0",
-    "grunt-nuget": "~0.1.3"
-  }, 
-  "author": "Scott Hanselman <scott@hanselman.com> (http://www.hanselman.com)",
-  "contributors": [ 
-    { "name": "John Papa"}
-  ]
+    "grunt-nuget": "~0.1.3",
+    "load-grunt-config": "^0.13.0",
+    "grunt-mkdir": "^0.1.2",
+    "jit-grunt": "^0.8.0",
+    "grunt-notify": "^0.3.1",
+    "time-grunt": "^0.4.0"
+  },
+  "authors": [
+    "Scott Hanselman <scott@hanselman.com> (http://www.hanselman.com)",
+    "John Papa <john@johnpapa.net> (http://www.johnpapa.net)"
+  ],
+  "config": {
+    "urlPrefix": "https://code.angularjs.org/",
+    "dest": "./build/",
+    "tpl": "package.nuspec.tpl",
+    "nuspec": "package.nuspec"
+  }
 }
