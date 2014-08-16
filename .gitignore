@@ -1,20 +1,7 @@
-# Ignore Visual Studio  Project #
-###################
-*.user
-*.gpState
-*.suo
-bin
-obj
+
 /packages
-**/prep
-
-# Ignore Node modules
-###################
+/build
 node_modules
-
-# Ignore mongo db
-###################
-db/
 
 # Ignore Web Storm #
 .idea
@@ -57,6 +44,3 @@ db/
 ehthumbs.db
 Icon?
 Thumbs.db
-packages
-final/build/node_modules/
-
