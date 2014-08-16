@@ -1,6 +1,6 @@
 module.exports = {
     'default': [
-        'download-locales',
+        'mkdir-locale',
         'fetchpages',
         'download',
         'template',
@@ -10,6 +10,9 @@ module.exports = {
     ],
     'download': [
         'curl-dir'
+    ],
+    'mkdir-locale': [
+        'mkdir:Locale'
     ],
     'pack-locale': [
         'nugetpack:Locale'

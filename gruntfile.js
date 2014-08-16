@@ -1,7 +1,12 @@
-// grunt --ver=1.2.21
-// grunt --ver=1.3.0-beta.17 (NOTE the dot, that's how Angular does it)
-
 /*jshint node:true*/
+/**
+ * Build all packages with `grunt --ver=1.2.21` 
+ * Build beta packages with `grunt --ver=1.3.0-beta.17` 
+ *      (NOTE the dot, that's how Angular does it)
+ * Publish with `grunt publish --ver=1.2.21 apiKey=xxxxxxxxxxx`
+ * `grunt clean` cleans the build folder 
+ * The `--time` option will show the time for the tasks
+ */
 module.exports = function(grunt) {
     'use strict';
 
@@ -34,7 +39,6 @@ module.exports = function(grunt) {
         init: true,
         jitGrunt: {
            loadTasks: 'tasks',
-           'download-locales': './tasks/download-locales.js',
            'curl-dir': 'grunt-curl',
            'fetchpages': 'grunt-fetch-pages',
            'nugetpack': 'grunt-nuget',
