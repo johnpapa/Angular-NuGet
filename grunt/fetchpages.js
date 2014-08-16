@@ -1,7 +1,4 @@
 module.exports = function (grunt, options) {
-    // console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxx');
-    // console.log(grunt.template.process('<%= package.config.dest %>'));
-    // console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxx');
     return {
         dist: {
             options: {
