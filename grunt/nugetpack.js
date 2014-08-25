@@ -3,10 +3,10 @@ module.exports = function (grunt, options) {
     return {
 		'Locale': {
 			options: {
-	    		basePath: 'build/1.2.22/angular-locale-1.2.22/i18n/'
+				basePath: '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>/i18n/'
 	    	},
 	    	files: [{
-		        src: '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>',
+		        src: dest + '/angular-locale-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>',
 		        dest: dest
 			}]
     	},
@@ -14,7 +14,7 @@ module.exports = function (grunt, options) {
 			options: {},
 			files: [{
 		        src: [
-		        	'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>' + '/**/**/<%= package.config.nuspec %>',
+		        	dest + '/**/**/<%= package.config.nuspec %>',
 		        	'!<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-*/<%= package.config.nuspec %>'
 		    	],
 		        dest: dest
