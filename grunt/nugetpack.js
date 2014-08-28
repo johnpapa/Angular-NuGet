@@ -3,7 +3,7 @@ module.exports = function (grunt, options) {
     return {
 		'Locale': {
 			options: {
-				basePath: '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>/i18n/'
+				basePath: '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>'
 	    	},
 	    	files: [{
 		        src: dest + '/angular-locale-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>',
