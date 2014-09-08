@@ -2,8 +2,9 @@
 /**
  * Build all packages with `grunt --ver=1.2.21` 
  * Build beta packages with `grunt --ver=1.3.0-beta.17` 
+ * Build rc packages with `grunt --ver=1.3.0-rc.0` 
  *      (NOTE the dot, that's how Angular does it)
- * Publish with `grunt publish --ver=1.2.21 apiKey=xxxxxxxxxxx`
+ * Publish with `grunt publish --ver=1.2.21 --apiKey=xxxxxxxxxxx`
  * `grunt clean` cleans the build folder 
  * The `--time` option will show the time for the tasks
  */
