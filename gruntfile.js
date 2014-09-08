@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         app: {
             apiKey: apiKey,
             dest: pkg.config.dest,
-            ngVersion: version.replace('beta.', 'beta'),
+            ngVersion: version.replace('beta.', 'beta').replace('rc.', 'rc'),
             urlPrefix: pkg.config.urlPrefix + version
         }
     };
