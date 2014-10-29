@@ -66,6 +66,17 @@ module.exports = function (grunt, options) {
 				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
+		'Messages': {
+			'options': {
+				'data' : {
+					'module': 'Messages',
+					'version': '<%= grunt.config.get("app.ngVersion") %>'
+				}
+			},
+			'files': {
+				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-messages-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
+			}
+		},
 		'Resource': {
 			'options': {
 				'data' : {

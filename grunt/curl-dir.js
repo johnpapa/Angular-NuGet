@@ -33,6 +33,14 @@ module.exports = function (grunt, options) {
             ],
             dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-loader-' + '<%= grunt.config.get("app.ngVersion") %>'
         },
+        'messages': {
+            src: [
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.min.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.min.js.map'
+            ],
+            dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-messages-' + '<%= grunt.config.get("app.ngVersion") %>'
+        },
         'resource': {
             src: [
                     '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-resource.js',
