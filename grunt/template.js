@@ -23,6 +23,17 @@ module.exports = function (grunt, options) {
 				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-animate-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
+		'Aria': {
+			'options': {
+				'data' : {
+					'module': 'Aria',
+					'version': '<%= grunt.config.get("app.ngVersion") %>'
+				}
+			},
+			'files': {
+				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-aria-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
+			}
+		},
 		'Cookies': {
 			'options': {
 				'data' : {
