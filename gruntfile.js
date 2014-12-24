@@ -24,7 +24,9 @@ module.exports = function(grunt) {
     console.log('Executing for AngularJS version ' + version);
 
     var apiKey = grunt.option('apiKey');
-    console.log('Using api key ' + apiKey);
+    if(apiKey) {
+        console.log('Using api key ' + apiKey);
+    }
 
     var pkg = grunt.file.readJSON('package.json');
     var config = {
@@ -38,13 +40,13 @@ module.exports = function(grunt) {
 
     require('load-grunt-config')(grunt, {
         init: true,
-        jitGrunt: {
-           loadTasks: 'tasks',
-           'curl-dir': 'grunt-curl',
-           'fetchpages': 'grunt-fetch-pages',
-           'nugetpack': 'grunt-nuget',
-           'nugetpush': 'grunt-nuget'
-        },
+        // jitGrunt: {
+        //    loadTasks: 'tasks',
+        //    'curl-dir': 'grunt-curl',
+        //    'fetchpages': 'grunt-fetch-pages',
+        //    'nugetpack': 'grunt-nuget',
+        //    'nugetpush': 'grunt-nuget'
+        // },
         config: config
     });
 };
