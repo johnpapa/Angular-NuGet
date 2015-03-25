@@ -25,9 +25,9 @@ DISCLAIMER: This package is maintained by Scott Hanselman and John Papa, but nei
         <% } %>
     </metadata>
     <files>
-        <file src="*.*" target="content\scripts" />
+        <file src="*.*" target="content\Scripts" />
         <% if (module === 'Locale') { %>
-            <file src="i18n\*.js" target="content\scripts\i18n" />
+            <file src="i18n\*.js" target="content\Scripts\i18n" />
         <% } %>
     </files>
 </package>
