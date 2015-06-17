@@ -88,6 +88,17 @@ module.exports = function (grunt, options) {
 				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-messages-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
+		'MessageFormat': {
+			'options': {
+				'data' : {
+				    'module': 'MessageFormat',
+					'version': '<%= grunt.config.get("app.ngVersion") %>'
+				}
+			},
+			'files': {
+			    '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-message-format-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
+			}
+		},
 		'Resource': {
 			'options': {
 				'data' : {

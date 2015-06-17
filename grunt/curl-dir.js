@@ -49,6 +49,14 @@ module.exports = function (grunt, options) {
             ],
             dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-messages-' + '<%= grunt.config.get("app.ngVersion") %>'
         },
+        'message-format': {
+            src: [
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-message-format.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-message-format.min.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-message-format.min.js.map'
+            ],
+            dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-message-format-' + '<%= grunt.config.get("app.ngVersion") %>'
+        },
         'resource': {
             src: [
                     '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-resource.js',
