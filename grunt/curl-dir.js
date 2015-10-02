@@ -8,14 +8,6 @@ module.exports = function (grunt, options) {
             ],
             dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-animate-' + '<%= grunt.config.get("app.ngVersion") %>'
         },
-        'aria': {
-            src: [
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-aria.js',
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-aria.min.js',
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-aria.min.js.map'
-            ],
-            dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-aria-' + '<%= grunt.config.get("app.ngVersion") %>'
-        },
         'core': {
             src: [
                     '<%= grunt.config.get("app.urlPrefix") %>' + '/angular.js',
@@ -40,14 +32,6 @@ module.exports = function (grunt, options) {
                     '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-loader.min.js.map'
             ],
             dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-loader-' + '<%= grunt.config.get("app.ngVersion") %>'
-        },
-        'messages': {
-            src: [
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.js',
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.min.js',
-                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-messages.min.js.map'
-            ],
-            dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-messages-' + '<%= grunt.config.get("app.ngVersion") %>'
         },
         'resource': {
             src: [

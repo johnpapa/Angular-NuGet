@@ -23,17 +23,6 @@ module.exports = function (grunt, options) {
 				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-animate-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
-		'Aria': {
-			'options': {
-				'data' : {
-					'module': 'Aria',
-					'version': '<%= grunt.config.get("app.ngVersion") %>'
-				}
-			},
-			'files': {
-				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-aria-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
-			}
-		},
 		'Cookies': {
 			'options': {
 				'data' : {
@@ -62,30 +51,9 @@ module.exports = function (grunt, options) {
 					'module': 'Locale',
 					'version': '<%= grunt.config.get("app.ngVersion") %>',
 				}
-				// 'data' : function() {
-				// 	return {
-				// 		'module': 'Locale',
-				// 		'version': '<%= grunt.config.get("app.ngVersion") %>'
-				// 		// 'i18nfiles': [
-				// 		// 		'angular-locale_af-na.js',
-				// 		// 		'angular-locale_af-za.js'
-				// 		// 	]
-				// 	}
-				// }
 			},
 			'files': {
 				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-locale-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
-			}
-		},
-		'Messages': {
-			'options': {
-				'data' : {
-					'module': 'Messages',
-					'version': '<%= grunt.config.get("app.ngVersion") %>'
-				}
-			},
-			'files': {
-				'<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-messages-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
 		'Resource': {
