@@ -99,6 +99,17 @@ module.exports = function (grunt, options) {
 			    '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-message-format-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
 			}
 		},
+		'ParseExt': {
+			'options': {
+				'data' : {
+				    'module': 'ParseExt',
+					'version': '<%= grunt.config.get("app.ngVersion") %>'
+				}
+			},
+			'files': {
+			    '<%= package.config.dest %><%= grunt.config.get("app.ngVersion") %>/angular-parse-ext-<%= grunt.config.get("app.ngVersion") %>/<%= package.config.nuspec %>': ['<%= package.config.tpl %>']
+			}
+		},
 		'Resource': {
 			'options': {
 				'data' : {

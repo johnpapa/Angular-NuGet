@@ -57,6 +57,14 @@ module.exports = function (grunt, options) {
             ],
             dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-message-format-' + '<%= grunt.config.get("app.ngVersion") %>'
         },
+        'parse-ext': {
+            src: [
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-parse-ext.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-parse-ext.min.js',
+                    '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-parse-ext.min.js.map'
+            ],
+            dest: '<%= package.config.dest %>' + '<%= grunt.config.get("app.ngVersion") %>' + '/angular-parse-ext-' + '<%= grunt.config.get("app.ngVersion") %>'
+        },   
         'resource': {
             src: [
                     '<%= grunt.config.get("app.urlPrefix") %>' + '/angular-resource.js',
